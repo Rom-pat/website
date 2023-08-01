@@ -1,0 +1,7 @@
+.Interest {
+    background: linear-gradient(to bottom, #394347 0%, #000000 100%);
+    text-align: center; 
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 0;
+  }

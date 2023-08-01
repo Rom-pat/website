@@ -1,32 +1,19 @@
-import logo from '../../logo.svg';
 import './Projects.css';
 import React from 'react';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
-
-class Work extends React.Component {
-
+class Projects extends React.Component {
+    componentDidMount() {
+        document.title = `Project Section`;
+      }
     render() {
         return(<div className="Work">
-        <title>
-            Romit Website
-        </title>
-        <header className="Work-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-            Lol
-            </p>
-            <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            Learn React
-            </a>
-        </header>
+          <Header />
+          <Footer />
         </div>
         );
 }
 }
 
-export default Work; 
+export default Projects; 
