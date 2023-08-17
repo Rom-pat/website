@@ -1,4 +1,4 @@
-import Romit from '../../Romit.jpeg';
+import Romit from '../../Romit.JPG';
 import './Home.css';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
@@ -12,13 +12,29 @@ class Home extends React.Component {
       }
     render() {
 
-        return(<div className="Home">
+        return(
+        <div id="Home">
           <Header />
-                <div className='home-body'>
-                <div className="Text-info">
-                  <p> Hi! I'm a University of Michigan Alum</p>
+                <div id='home-body'>
+                <div id="Text-info">
+                  <p> 
+                    Welcome to my Website! Here you will find a detailed summary
+                    of my dive into the tech sphere.
+                    <br></br>
+                    Follow the links above to learn more about me!
+                  </p>
+                  </div>
+                <div id='split_port'>
+                <img src={Romit} id="Profile-Pic" alt="logo" />
+                <div id="Home_text_next_to_pic">
+                <h2>To give the rundown: </h2>
+                <br></br>
+                  <p>University of Michigan 2023 Graduate. B.S.E CS 〽️</p>
+                  <p>Currently job-hunting for a Fast and Friendly Enviroment!</p>
+                  <p>When I am not coding, you will find me trying to complete my <a className="a_links" href="/Interest" target="_self">Hobbies</a> Page!</p>
+                  <p>Want to connect? Feel free to do it <a className="a_links" href="/About">Here</a></p>
                 </div>
-                <img src={Romit} className="App-logo" alt="logo" />
+                </div>
                 </div>
           <Footer />
         </div>

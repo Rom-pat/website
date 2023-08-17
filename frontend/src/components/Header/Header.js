@@ -3,15 +3,12 @@ import React from 'react';
 class Header extends React.Component {
     render() {
         return(
-            <div className='header-div'>
-            <div className='dashboard'>
-            <a
-                className="App-link"
-                href="/projects"
-                target="_self"
-                >
-                Projects
-                </a>
+            <div id='header-div'>
+            <div id='dashboard'>
+            <ul className='horizontal_list'>
+                <li> <a className="App-link" href="/projects" target="_self"> Projects</a>
+                </li>
+                <li>
                 <a
                 className="App-link"
                 href="/projects"
@@ -19,20 +16,26 @@ class Header extends React.Component {
                 >
                 Resume
                 </a>
+                </li>
+                <li>
                 <a
                 className="App-link"
                 href="/home"
                 target="_self"
                 >
-                Romit Patel
+                Home
                 </a>
+                </li>
+                <li>
                 <a
                 className="App-link"
                 href="/Interest"
                 target="_self"
                 >
-                Interest
+                Hobbies
                 </a>
+                </li>
+                <li>
                 <a
                 className="App-link"
                 href="/about"
@@ -40,9 +43,10 @@ class Header extends React.Component {
                 >
                 About
                 </a>
+                </li>
+            </ul>
             </div>
             </div>
-
         )
 }
 }

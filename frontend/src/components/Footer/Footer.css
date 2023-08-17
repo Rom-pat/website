@@ -1,11 +1,12 @@
-footer {
+.footer {
     text-align: center;
     justify-content: center;
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     font-size:  20;
     padding: 3px;
     width: 100%;
+    height: fit-content;
     background-color: transparent;
     color: white;
   }

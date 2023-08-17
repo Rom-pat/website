@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div className='APP'>
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element= {<Navigate to="/Home" />} />

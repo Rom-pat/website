@@ -1,25 +1,60 @@
-.Home {
-  background: linear-gradient(to bottom, #394347 0%, #000000 100%);
-  min-height: 100vh;
-  min-width: 100vw;
-  padding: 0;
-  }
-.Home > .home-body {
-  height: 50%;
+#Home {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+}
+#Home > #home-body {
+  height: 75%;
   width: 100%;
   }
-.home-body > .Text-info {
-  height:50%;
+#home-body > #Text-info {
+  height: 12.5%;
+  width: 100%;
+  margin: 20px; 
+  overflow: clip;
+  display: inline-block;
+}
+#home-body > #split_port {
+  height:75%;
+  width: 100%;
+  padding: 0px;
+  display: inline-block;
+  margin: 10px;
+}
+#split_port > div {
   width: 50%;
-  position: absolute;
-  left: 35%;
-  text-align: center;
   display: inline-block;
 }
 p {
-  color: antiquewhite;
-  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  margin: 20px;
 }
-.home-body > img {
-  position: left;
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 48px;
+}
+
+#Profile-Pic {
+  height: 400px;
+  display: inline;
+  border-radius: 25%;
+  position: relative;
+  margin-left: 15%;
+}
+
+.a_links {
+  color: #FF8000;
+}
+
+.a_links:visited {
+  color: yellow;
+}
+#Home_text_next_to_pic {
+  text-align: center;
+  width: 55%;
+  margin-left: 30px;
 }

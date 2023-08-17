@@ -3,11 +3,11 @@ import React from 'react';
 class Footer extends React.Component {
     render() {
         return(
-            <footer>
+            <div className="footer">
                 <p>
                     Copyright © 2023, Romit Patel
                 </p>
-            </footer>
+            </div>
         )
 }
 }
