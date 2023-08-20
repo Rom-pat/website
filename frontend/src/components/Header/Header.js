@@ -8,42 +8,11 @@ class Header extends React.Component {
             <ul className='horizontal_list'>
                 <li> <a className="App-link" href="/projects" target="_self"> Projects</a>
                 </li>
+                <li><a className="App-link"  href="/projects" target="_self">Resume</a></li>
+                <li><a className="App-link" href="/home" target="_self"> Home</a> </li>
+                <li> <a className="App-link" href="/Hobby" target="_self" > Hobbies </a> </li>
                 <li>
-                <a
-                className="App-link"
-                href="/projects"
-                target="_self"
-                >
-                Resume
-                </a>
-                </li>
-                <li>
-                <a
-                className="App-link"
-                href="/home"
-                target="_self"
-                >
-                Home
-                </a>
-                </li>
-                <li>
-                <a
-                className="App-link"
-                href="/Interest"
-                target="_self"
-                >
-                Hobbies
-                </a>
-                </li>
-                <li>
-                <a
-                className="App-link"
-                href="/about"
-                target="_self"
-                >
-                About
-                </a>
-                </li>
+                <a className="App-link" href="/about" target="_self" > About </a></li>
             </ul>
             </div>
             </div>

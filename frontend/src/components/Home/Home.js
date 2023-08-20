@@ -1,4 +1,4 @@
-import Romit from '../../Romit.JPG';
+import Romit from '../../Photos/Romit.JPG';
 import './Home.css';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
@@ -17,7 +17,7 @@ class Home extends React.Component {
           <Header />
                 <div id='home-body'>
                 <div id="Text-info">
-                  <p> 
+                  <p className='home_text'> 
                     Welcome to my Website! Here you will find a detailed summary
                     of my dive into the tech sphere.
                     <br></br>
@@ -25,14 +25,14 @@ class Home extends React.Component {
                   </p>
                   </div>
                 <div id='split_port'>
-                <img src={Romit} id="Profile-Pic" alt="logo" />
+                <img src={Romit} id="Profile-Pic" alt="Myself"/>
                 <div id="Home_text_next_to_pic">
                 <h2>To give the rundown: </h2>
                 <br></br>
-                  <p>University of Michigan 2023 Graduate. B.S.E CS 〽️</p>
-                  <p>Currently job-hunting for a Fast and Friendly Enviroment!</p>
-                  <p>When I am not coding, you will find me trying to complete my <a className="a_links" href="/Interest" target="_self">Hobbies</a> Page!</p>
-                  <p>Want to connect? Feel free to do it <a className="a_links" href="/About">Here</a></p>
+                  <p className='home_text'>University of Michigan 2023 Graduate. B.S.E CS 〽️</p>
+                  <p className='home_text'>Currently job-hunting for a Fast and Friendly Enviroment!</p>
+                  <p className='home_text'>When I am not coding, you will find me trying to complete my <a className="a_links" href="/Interest" target="_self">Hobbies</a> Page!</p>
+                  <p className='home_text'>Want to connect? Feel free to do it <a className="a_links" href="/About">Here</a></p>
                 </div>
                 </div>
                 </div>

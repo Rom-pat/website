@@ -1,17 +1,17 @@
-import './About.css';
+import './Hobby.css';
 import React from 'react';
 import Footer from '../Footer/Footer';
-import waterfall from '../../Photos/Waterfall.jpeg'
 import Header from '../Header/Header';
-class About extends React.Component {
+import waterfall from '../../Photos/Waterfall.jpeg';
+class Interest extends React.Component {
     componentDidMount() {
-        document.title = `About Section`;
+        document.title = `Hobbies Section`;
       }
     render() {
-        return(<div className="About">
+        return(<div className="Interest">
           <Header />
           <h1 className='text-5xl place-self-center  font-bold p-5'>
-            About Me
+            Hobbies
           </h1>
           <br></br>
           <article className=' pb-20'>
@@ -43,4 +43,4 @@ class About extends React.Component {
 }
 }
 
-export default About; 
+export default Interest; 

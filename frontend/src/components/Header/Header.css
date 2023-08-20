@@ -7,11 +7,12 @@
   #dashboard > ul.horizontal_list {
   list-style: none;
   height: 100%;
+  width: fit-content;
 }
 ul.horizontal_list li {
   display: inline-block;
-  margin-inline-start:  55px;
-  margin-inline-end:  55px;
+  margin-inline-start:  30px;
+  margin-inline-end:  30px;
 }
 
 #dashboard {
@@ -31,7 +32,7 @@ ul.horizontal_list li {
 
 
 
-.App-link {
+a.App-link {
     border-width:3px;
     border-spacing:30px;
     height: 25%;
@@ -40,6 +41,6 @@ ul.horizontal_list li {
     margin: 2ch;
     border-style: none;
   }
-.App-link:visited{
-  color: white;
-}
+ a.App-link:hover {
+  color:#FF8000;;
+ }
