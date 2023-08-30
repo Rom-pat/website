@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Raz from './components/Raz/Raz';
 import Projects from './components/Projects/Projects';
 import Hobby from './components/Hobby/Hobby';
+import Resume from './components/Resume/Resume';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Projects" element={<Projects />} />
         <Route path="/About" element={<About />} />
         <Route path="/Raz" element={<Raz />} />
+        <Route path="/Resume" element={<Resume />} />
         <Route path="/Hobby" element={<Hobby />} />
         <Route path="*" element={
             <div>

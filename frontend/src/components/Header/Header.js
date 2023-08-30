@@ -8,7 +8,7 @@ class Header extends React.Component {
             <ul className='horizontal_list'>
                 <li> <a className="App-link" href="/projects" target="_self"> Projects</a>
                 </li>
-                <li><a className="App-link"  href="/projects" target="_self">Resume</a></li>
+                <li><a className="App-link"  href="/resume" target="_self">Resume</a></li>
                 <li><a className="App-link" href="/home" target="_self"> Home</a> </li>
                 <li> <a className="App-link" href="/Hobby" target="_self" > Hobbies </a> </li>
                 <li>
