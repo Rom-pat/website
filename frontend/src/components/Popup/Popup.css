@@ -107,7 +107,7 @@
     text-align: left;
     margin-top: 0.5rem/* 8px */;
   }
-  button.github_available {
+  button.github{
     display: block;
     margin-top: 15px;
     width: fit-content;
@@ -115,20 +115,14 @@
     text-align: left;
     font-size: 24px;
     color: white;
-    background: linear-gradient(180deg, #40e2f4 0%, #2aadb6 100%);
     border-radius: 6px;
     background-origin: border-box;
+  }
+  button.github#github_available {
+    background: linear-gradient(180deg, #40e2f4 0%, #2aadb6 100%);
+
 }
 
-button.github_NA {
-  display: block;
-  margin-top: 15px;
-  width: fit-content;
-  padding: 12px;
-  text-align: left;
-  font-size: 24px;
-  color: white;
+button.github#github_NA {
   background: linear-gradient(180deg, #f44040 0%, #b62a2a 100%);
-  border-radius: 6px;
-  background-origin: border-box;
 }

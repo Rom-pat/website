@@ -14,9 +14,9 @@ class Projects extends React.Component {
         activeImage: null
       };
     }
-    openPopup = (title, description, duration, stack, image, code) => {
+    openPopup = (title, description, duration, stack, image, code, link) => {
       this.setState({
-        activePopup: {title, description, duration, stack, code},
+        activePopup: {title, description, duration, stack, code, link},
         activeImage: image
       });
     };
@@ -43,6 +43,7 @@ class Projects extends React.Component {
               duration = {data.duration}
               stack  = {data.stack}
               image={data.image}
+              link={data.link}
               code = {data.code}
               onClick={this.openPopup} 
               />
@@ -52,7 +53,7 @@ class Projects extends React.Component {
           {activePopup && (
           <Popup title={activePopup.title} description={activePopup.description}  duration = {activePopup.duration} 
           stack={activePopup.stack}
-          image={activeImage} closePopup={this.closePopup} code={activePopup.code}/>
+          image={activeImage} closePopup={this.closePopup} code={activePopup.code} link={activePopup.link}/>
         )}
           <Footer />
         </div>

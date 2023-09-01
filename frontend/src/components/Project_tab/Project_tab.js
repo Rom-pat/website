@@ -3,8 +3,8 @@ import React from 'react';
 
 class Project_tab extends React.Component {
     handleClick = () => {
-        const { title, description, duration, stack, image, code, onClick } = this.props;
-        onClick(title, description, duration, stack, image, code);
+        const { title, description, duration, stack, image, code, link, onClick } = this.props;
+        onClick(title, description, duration, stack, image, code, link);
       };
     
     render() { 

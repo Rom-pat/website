@@ -12,7 +12,7 @@ export const ProjectData = [
         stack: "Javascript and React",
         description: "Website being made",
         code: true,
-        link: "Website",
+        link: "https://github.com/Rom-pat/website",
     },
     {
         title: "Pokemon Discord bot",
@@ -28,7 +28,7 @@ export const ProjectData = [
         duration: "May 2023-August 2023",
         stack: "Javascript and React",
         description: "Website being made",
-        code: true,
+        code: false,
     },
     {
         title: "Scalable Search Engine",

@@ -7,107 +7,34 @@
     height: 100%;
 }
 
-
-.top {
-    border-bottom-style: solid;
-    border-width: 5px;
-    border-color: black;
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 10%;
-}
-.top > .Site_name {
-    width: 50%;
-    float: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 500%;
-    margin: 0;
-    padding: 0;
-    border: 5px;
-    
-}
-.top > .right {
-    width: 25%;
-    float:right;
-}
-.top > .Logo {
-    width: 15%;
-    border-right: solid;
-    border-width: 5px;
-    float: left;
-}
-
-.insta_post {
-    border: 1px solid gray; 
-    width: 75%;
-    margin: 5%;
-    display: block;
-    overflow: auto;
-    align-items: center;
-    font-size: 24px;
-}
-a.name:link {
-    color: black;
-    float: left;
-    text-decoration: none;
-}
-a.follow:link {
-    color: black;
-    text-decoration: none;
-}
-a.name:visited {
-    color: black;
-}
-a.timestamp:link {
-    color: grey; 
-    float: right;
-    text-decoration: none;
-}
-.insta_post > .center {
-    margin: auto;
-    width: fit-content;
-    height: fit-content;
-
-}
-.insta_post > .sectionhead
-{
-    display: block;
-    height: fit-content;
-    margin: auto;
-    padding-bottom: 15%;
-}
-.insta_photo {
-    width: 10%;
-    height: 10%; 
-    overflow: auto;
-    float:left;
-    padding-right: 5%;
-}
-.comment {
-display: inline;
-}
-.center {
-    margin: auto;
-    width: 66%;
-    height: 50%;
-    text-align: left;
-}
-.center > .insta_image {
-    width: 1000;
-    display: inline;
-}
-
-
-.App {
+div.top_portion {
     text-align: center;
-  }
-  
-  .Work-header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
+    width: 50%;
+    height: 25%;
+    display: inline-block;
+    margin-top: 2.5rem/* 40px */;
+
+}
+
+div.bottom_portion {
+    height: fit-content;
+    width: 80%;
+    margin: 2rem auto;
+    margin-top: 2rem/* 40px */;
+    text-align: center;
+}
+
+button.class {
+    border-radius: 6px;
+    font-size: 24px;
+    background-origin: border-box;
     color: white;
-  }
+    margin: 20px;
+    padding: 12px;
+}
+button.class#word {
+    background: linear-gradient(180deg, #4085f4 0%, #2a52b6 100%);
+}
+button.class#pdf {
+    background: linear-gradient(180deg, #f44040 0%, #b62a2a 100%);
+}
