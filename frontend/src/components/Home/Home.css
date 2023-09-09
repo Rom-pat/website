@@ -1,22 +1,11 @@
 #Home {
-  height: 100vh;
-  width: 100vw;
-  margin: 0px;
-  padding: 0px;
+  height: 100%;
+  width: 100%;
   text-align: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
-#Home > #home-body {
-  height: 75%;
-  width: 100%;
-  }
-#home-body > #Text-info {
-  height: 12.5%;
-  width: 100%;
-  margin: 10px; 
-  overflow: hidden;
-  display: inline-block;
-}
-#home-body > #split_port {
+ #split_port {
   height:75%;
   width: 100%;
   padding-bottom: 2.5rem;
@@ -58,4 +47,13 @@ h2 {
   margin-top: 30px;
   width: 55%;
   margin-left: 30px;
+}
+
+h1.title {
+  font-size: 3rem/* 48px */;
+  line-height: 1;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem/* 16px */;
 }

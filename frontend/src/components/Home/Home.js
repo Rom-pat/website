@@ -11,12 +11,11 @@ class Home extends React.Component {
         document.title = `Romit-Patel Website`;
       }
     render() {
-
         return(
         <div id="Home">
           <Header />
-                <div id='home-body'>
-                <div id="Text-info">
+          <h1 className=' mt-5 title'>Welcome!</h1>
+                <div>
                   <p className='home_text'> 
                     Welcome to my Website! Here you will find a detailed summary
                     of my dive into the tech sphere.
@@ -32,8 +31,7 @@ class Home extends React.Component {
                   <p className='home_text'>University of Michigan 2023 Graduate. B.S.E CS 〽️</p>
                   <p className='home_text'>Currently job-hunting for a Fast and Friendly Enviroment!</p>
                   <p className='home_text'>When I am not coding, you will find me trying to complete my <a className="a_links" href="/Hobby" target="_self">Hobbies</a> Page!</p>
-                  <p className='home_text'>Want to connect? Feel free to do it <a className="a_links" href="/About">Here</a></p>
-                </div>
+                  <p className='home_text'>Want to connect? Feel free to do it <a className="a_links" href="/Contact">Here</a></p>
                 </div>
                 </div>
           <Footer />

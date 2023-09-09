@@ -1,0 +1,107 @@
+#Contact {
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#Contact  h1 {
+    margin-top: 2.5rem/* 40px */;
+    font-size: 3rem/* 48px */;
+    line-height: 1;
+}
+#Contact  h3 {
+    margin-top: 2.5rem/* 40px */;
+    font-size: 1.875rem/* 30px */;
+    line-height: 2.25rem/* 36px */;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+#Contact div.top_portion {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    display: inline-block;
+    margin-top: 2.5rem/* 40px */;
+    align-items: center;
+}
+div.top_portion  img {
+    display: inline;
+    margin-left: 6.25%;
+    margin-right: 6.25%;
+}
+input.text_input {
+    border-radius: 12px;
+    font-size: 24px;
+    margin: 10px;
+    width: 40%;
+    display: inline-block;
+    padding: 8px;
+
+}
+
+input.text_input {
+    border-radius: 12px;
+    font-size: 24px;
+    margin: 15px;
+    width: 40%;
+    display: inline-block;
+    padding: 8px;
+
+}
+
+textarea.paragraph_input{
+    border-radius: 12px;
+    font-size: 24px;
+    margin: 10px;
+    min-height: 200px;
+    min-width: 40%;
+    display: inline-block;
+    box-sizing: border-box;
+
+
+}
+form {
+    margin: 20px;
+}
+
+input.main_form{
+    background-origin: border-box;
+    font-size: 24px;
+    padding: 16px;
+    border-radius: 12px;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;    
+    background-color: black;
+    box-shadow: 0 0 5px 5px white;
+}
+
+
+input.main_form#submit_form:hover {
+    background-color: green;
+    box-shadow: 0 0 5px 5px green;
+    color: black;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+
+input.main_form#reset_form:hover {
+    background-color: red;
+    box-shadow: 0 0 5px 5px red;
+    color: black;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}

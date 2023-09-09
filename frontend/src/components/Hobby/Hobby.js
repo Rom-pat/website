@@ -13,7 +13,7 @@ class Interest extends React.Component {
     render() {
         return(<div className="Interest">
           <Header />
-          <h1 className='text-5xl place-self-center font-bold p-5'>
+          <h1 className='title p-5'>
             Hobbies
           </h1>
           <br></br>
@@ -70,7 +70,7 @@ class Interest extends React.Component {
               During the start of my college time, I started learning how to cook more so I could provide myself with some healthy snacks and treats when going to the gym 
               or doing some school work. 
               I go on Youtube to research what food I should make and limit myself to vegetarian options.
-              So far, I have been mostly making Indian food as the cuisine I'm learning but feel free to drop me any recipes!
+              So far, I have been mostly making Indian food as the cuisine I'm learning but feel free to drop me any <a className="a_links" href="/Contact">recipes</a>!
             </p>
           </div>
           <div className='w-2/5 object-contain inline-block float-right'>

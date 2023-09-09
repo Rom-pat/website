@@ -9,18 +9,33 @@
 
 div.top_portion {
     text-align: center;
-    width: 50%;
-    height: 25%;
+    width: 33.333%;
+    height: 20%;
     display: inline-block;
     margin-top: 2.5rem/* 40px */;
 
 }
 
+div.middle_portion {
+    text-align: center;
+    width: 10%;
+    height: 80%;
+    margin: 20px auto;
+
+}
+a.popup_link {
+    background-color: green;
+    background-origin: border-box;
+    color: white;
+    border-radius: 6px;
+    font-size: 24px;
+    margin: 10px;
+    padding: 12px;
+}
 div.bottom_portion {
     height: fit-content;
     width: 80%;
     margin: 2rem auto;
-    margin-top: 2rem/* 40px */;
     text-align: center;
 }
 

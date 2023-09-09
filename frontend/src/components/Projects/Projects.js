@@ -34,7 +34,7 @@ class Projects extends React.Component {
 
         return(<div id="Work">
           <Header />
-					<h1 className=' text-5xl font-bold mx-auto mb-4'>Projects</h1>
+					<h1 className='title'>Projects</h1>
 					<h2 className=' text-4xl mx-auto'>Here a list of all the projects that I've worked on!</h2>
           <div id='Project'>
             {ProjectData.map((data) => {

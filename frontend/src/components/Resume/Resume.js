@@ -26,34 +26,20 @@ class Resume extends React.Component {
       }
     render() {
         return(<div className="Resume">
+          <div className='mb-7'>
           <Header />
-          <h1 className=' mt-10 text-5xl'>Resume</h1>
-          <h3 className=' mt-10 text-3xl text-white'>You can download my resume here...</h3>
+          <h1 className=' mt-5 title'> My Resume Page</h1>
+          <h3 className=' mt-10 text-3xl text-white'> Where You can download my resume here...</h3>
           <div className='top_portion'>
             <button className='class' id="word" onClick={ () => this.DownloadClick("word")}> Word version </button>
           </div>
           <div className='top_portion'>
           <button className='class' id='pdf' onClick={ () => this.DownloadClick("pdf")}> PDF version</button>
           </div>
-          <h3 className='text-3xl text-white'>Or look at it here!</h3>
-          <div className='bottom_portion'>
-            <div className="h-1/5  bg-gray-200 text-left">
-              <button className=' text-5xl mx-10 text-left' > acme</button>
-              <button className=' text-5xl mx-10 text-left'> acme</button>
-              <button className=' text-5xl mx-10 text-left'> acme</button>
-              <button className=' text-5xl mx-10 text-left'> acme</button>
-              <button className=' text-5xl mx-10 text-left'> acme</button>
-              <button className=' text-5xl mx-10 text-left'> acme</button>
-            </div>
-            <div className=" h-fit bg-slate-950 text-left">
-              <p> acme</p>
-              <p> acme</p>
-              <p> acme</p>
-              <p> acme</p>
-              <p> acme</p>
-              <p> acme</p>
-              <p> acme</p>
-            </div>
+          <div className='middle_portion'>
+          <h2 className=' text-3xl text-white mb-6 inline-block'>Or Print it here</h2>
+          <a className='popup_link' href="/Romit's_Resume.pdf" target='_blank' rel='noreferrer'>View PDF</a>
+          </div>
           </div>
           <Footer />
         </div>

@@ -118,6 +118,12 @@
     border-radius: 6px;
     background-origin: border-box;
   }
+  button.github#github_available:active {
+    background: orange;
+  }
+  button.github#github_NA:active {
+    background: orange;
+  }
   button.github#github_available {
     background: linear-gradient(180deg, #40e2f4 0%, #2aadb6 100%);
 
