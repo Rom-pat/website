@@ -7,6 +7,9 @@ import Gmail from '../../Photos/Gmail_Logo.png';
 import Linkedin from '../../Photos/Linkedin_photo.png';
 
 class Contact extends React.Component {
+    componentDidMount() {
+        document.title = `Contact Section`;
+      }
     render() {
         return(
         <div id="Contact">
