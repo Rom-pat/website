@@ -17,7 +17,7 @@ export const ProjectData = [
     {
         title: "Pokemon Discord bot",
         image: Poke_type,
-        duration: "Janurary 2023-May 2023",
+        duration: "January 2023-May 2023",
         stack: "Python, Discord Framework, MongoDB, SQL, CSS3, HTML",
         description: "Created a python bot that would the simulate the catching portion of Pokemon \n alongside allowing users to easily access" +
         " 310,762 different pokemon type combinations",
@@ -26,7 +26,7 @@ export const ProjectData = [
     {
         title: "Notetotes",
         image: Notetotes,
-        duration: "September 2022-Decemeber 2022",
+        duration: "September 2022-December 2022",
         stack: "Python, HTML5, CSS3, AWS, SQL, JavaScript",
         description: "Assembled a full stack writing app catered and specialized for writers and Ph.D. students by "+
         "partnering with two other developers.",
