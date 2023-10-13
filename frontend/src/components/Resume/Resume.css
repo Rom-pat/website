@@ -23,15 +23,7 @@ div.middle_portion {
     margin: 20px auto;
 
 }
-a.popup_link {
-    background-color: green;
-    background-origin: border-box;
-    color: white;
-    border-radius: 6px;
-    font-size: 24px;
-    margin: 10px;
-    padding: 12px;
-}
+
 div.bottom_portion {
     height: fit-content;
     width: 80%;
@@ -52,4 +44,10 @@ button.class#word {
 }
 button.class#pdf {
     background: linear-gradient(180deg, #f44040 0%, #b62a2a 100%);
+}
+
+button.class#view {
+    background: green;
+    padding: 10px;
+    margin: 10px;
 }

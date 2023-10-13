@@ -38,7 +38,7 @@ class Resume extends React.Component {
           </div>
           <div className='middle_portion'>
           <h2 className=' text-3xl text-white mb-6 inline-block'>Or Print it here</h2>
-          <a className='popup_link' href="/Romit's_Resume.pdf" target='_blank' rel='noreferrer'>View PDF</a>
+          <button className='class' id='view'> <a href="/Romit's_Resume.pdf" target='_blank' rel='noreferrer'> View PDF</a> </button>
           </div>
           </div>
           <Footer />
