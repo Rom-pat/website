@@ -29,7 +29,7 @@ class Home extends React.Component {
                 <h2>To give the rundown: </h2>
                 <br></br>
                   <p className='home_text'>University of Michigan 2023 Graduate. B.S.E CS 〽️</p>
-                  <p className='home_text'>Currently job-hunting for a Fast and Friendly Enviroment!</p>
+                  <p className='home_text'>Currently working as a TDP Data Engineer at GEICO!</p>
                   <p className='home_text'>When I am not coding, you will find me trying to complete my <a className="a_links" href="/Hobby" target="_self">Hobbies</a> Page!</p>
                   <p className='home_text'>Want to connect? Feel free to do it <a className="a_links" href="/Contact">Here</a></p>
                 </div>

@@ -6,15 +6,14 @@ import Projects from './components/Projects/Projects';
 import Hobby from './components/Hobby/Hobby';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className='APP'>
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element= {<Navigate to="/Home" />} />
-        <Route path="/Home" element={<Home />} />
+        <Route exact path="/" element= {<Home />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/About" element={<About />} />
         <Route path="/Raz" element={<Raz />} />

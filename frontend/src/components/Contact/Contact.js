@@ -3,7 +3,6 @@ import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Github from '../../Photos/Github.png';
-import Gmail from '../../Photos/Gmail_Logo.png';
 import Linkedin from '../../Photos/Linkedin_photo.png';
 
 class Contact extends React.Component {

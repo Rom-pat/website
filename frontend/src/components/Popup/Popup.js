@@ -24,7 +24,6 @@ function Popup({ title, description, duration, stack, image, code, link, closePo
         <div className="popup-text-bottom">
            {code && <a href={link} target="_self"><button className='github' id="github_available">Github available</button></a> }
           {!code && <button className='github' id="github_NA" onClick={to_contact}>Contact for Code</button>}
-          <h1 className=' text-5xl left-0 text-left mt-2'>Summary</h1>
             <div className="text-box">
               <p>{description}</p>
             </div>

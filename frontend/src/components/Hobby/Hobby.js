@@ -25,7 +25,7 @@ class Interest extends React.Component {
             <p className='hobby_Text'>
             During the peak of Covid, I decided to catch every pokemon as a gift for my little brother's 10th birthday.<br></br>
             However, I decided the extra caveat would be that I would give him <b> ALL </b> of these pokemon in their alternate colors. The chance of finding one can range from 1/4096 to 1/8192.
-            At the time of writing, we have managed to get 816/1,010 of all Pokemon (August 2023)!
+            At the time of writing, we have managed to get 991/1,010 of all Pokemon. Missing only 2!(September 2024)!
             </p>
           </div>
           <div className='w-2/5 object-contain inline-block float-right'>
@@ -50,9 +50,9 @@ class Interest extends React.Component {
 
           <div className='w-full max-h-fit inline-block pb-20'>
           <div className='w-3/5 inline-block'>
-            <h3 className='hobby_title'>Studying Langagues</h3>
+            <h3 className='hobby_title'>Studying Languages</h3>
             <p className='hobby_Text'>
-            Besides learning Coding languages, I wanted to expand my ability to talk with people from different backgrounds!<br></br>
+            Besides learning coding languages, I wanted to expand my ability to talk with people from different backgrounds!<br></br>
             I wanted to know more about my Indian heritage and wanted to communicate more efficiently. I started learning how to speak and write in Hindi for this goal. 
             Besides using English, I strongly know Spanish and Gujarati from School and Home.
             I also know a few individual words in Swahili and French from traveling.

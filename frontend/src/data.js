@@ -3,21 +3,32 @@ import colorize from './Photos/Colorize.png';
 import Notetotes from './Photos/Notetotes.png';
 import website from './Photos/Website.png';
 import Poke_type from './Photos/Poke-type.png';
+import Pokebase from './Photos/Pokebase.png';
 
 export const ProjectData = [
     {
+        title: "Pokebase",
+        image: Pokebase,
+        duration: "September 2023-Present",
+        stack: "Swift, CocoaPods, iOS",
+        description: "Developed my first iOS for the use of tracking alternate Colored Pokemon" +
+        " and track when pokemon were found and how many are still need to be caught",
+        code: true,
+        link: "https://github.com/Rom-pat/PokeBase",
+    },
+    {
         title: "Website",
         image: website,
-        duration: "July 2023-September 2023",
+        duration: "July 2023-Present",
         stack: "Javascript and React",
         description: "Developed my first Website to display all my projects. Currently 1.0 of the website",
         code: true,
         link: "https://github.com/Rom-pat/website",
     },
     {
-        title: "Pokemon Discord bot",
+        title: "Pokemon Discord Bot",
         image: Poke_type,
-        duration: "January 2023-May 2023",
+        duration: "January 2023-Present",
         stack: "Python, Discord Framework, MongoDB, SQL, CSS3, HTML",
         description: "Created a python bot that would the simulate the catching portion of Pokemon \n alongside allowing users to easily access" +
         " 310,762 different pokemon type combinations",

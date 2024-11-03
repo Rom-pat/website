@@ -22,7 +22,7 @@
     position: relative;
     text-align: center;
     width: 70%;
-    height: fit-content;
+    height: 70%;
     flex-direction: column;
     overflow: scroll;
   }
@@ -30,14 +30,12 @@
   .popup-image {
     width: 50%;
     height: 50%;
-    overflow: hidden;
-    box-shadow: 0 0 5px 5px white;
+    overflow:hidden;
   }
   
   .popup-image-full {
     width: 100%;
-    height: 100%;
-    object-fit:fill; 
+    max-height: 50%;
   }
 
   .popup-content-container {
@@ -91,7 +89,6 @@
     padding-right: 10px;
     text-align: left;
     margin-top : 20px; 
-    margin-bottom : 20px;
     margin-right: 20px;
     width: fit-content;
   }
