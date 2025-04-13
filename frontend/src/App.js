@@ -7,12 +7,18 @@ import Hobby from './components/Hobby/Hobby';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact/Contact';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
+    
     <div className='APP'>
+      <Header/>
     <BrowserRouter>
       <Routes>
+        <Route exact path="/Home" element= {<Home />} />
         <Route exact path="/" element= {<Home />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/About" element={<About />} />
@@ -27,6 +33,7 @@ function App() {
             } />
       </Routes>
     </BrowserRouter>
+    <Footer />
     </div>
   );
 }

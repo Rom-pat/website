@@ -1,7 +1,5 @@
 import './Contact.css';
 import React from 'react';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 import Github from '../../Photos/Github.png';
 import Linkedin from '../../Photos/Linkedin_photo.png';
 
@@ -12,7 +10,6 @@ class Contact extends React.Component {
     render() {
         return(
         <div id="Contact">
-            <Header />
              <h1 className='title'>Contact me</h1>
              <h3 className=' text-3xl'>You can find me on these website!</h3>
              <div className='top_portion'>
@@ -27,7 +24,6 @@ class Contact extends React.Component {
               <input className="main_form" id="submit_form" type="submit" value="Submit"></input>
               <input className="main_form" id="reset_form" type="reset" value="Reset"></input>
               </form>
-             <Footer />
           </div>
           );
 }

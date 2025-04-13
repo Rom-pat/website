@@ -13,7 +13,7 @@ export const ProjectData = [
         stack: "Swift, CocoaPods, iOS",
         description: "Developed my first iOS for the use of tracking alternate Colored Pokemon" +
         " and track when pokemon were found and how many are still need to be caught",
-        code: true,
+        code: false,
         link: "https://github.com/Rom-pat/PokeBase",
     },
     {

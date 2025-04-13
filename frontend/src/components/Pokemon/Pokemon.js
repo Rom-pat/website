@@ -9,8 +9,6 @@ class Projects extends React.Component {
       }
     render() {
         return(<div className="Pokemon">
-          <Header />
-          <Footer />
         </div>
         );
 }

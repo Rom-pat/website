@@ -1,7 +1,5 @@
 import Romit from '../../Photos/Romit.JPG';
 import './Home.css';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 import React from 'react';
 
 
@@ -13,7 +11,6 @@ class Home extends React.Component {
     render() {
         return(
         <div id="Home">
-          <Header />
           <h1 className=' mt-5 title'>Welcome!</h1>
                 <div>
                   <p className='home_text'> 
@@ -34,7 +31,6 @@ class Home extends React.Component {
                   <p className='home_text'>Want to connect? Feel free to do it <a className="a_links" href="/Contact">Here</a></p>
                 </div>
                 </div>
-          <Footer />
         </div>
         );
 }
