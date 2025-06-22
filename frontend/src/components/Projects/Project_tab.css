@@ -24,15 +24,20 @@ span.project_details {
     text-align: center;
     background-origin: border-box;
 }
-button:hover span {
-    display: block;
+
+button:hover span.project_details {
     position: absolute;
+    display: block;
     top: 50%;
     left: 50%;
+}
+button:hover span {
     z-index:1;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 5px 5px white;
 }
+
+
 
 button:hover span:active {
     background: orange;

@@ -14,27 +14,27 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     
-    <div className='APP'>
-      <Header/>
     <BrowserRouter>
-      <Routes>
-        <Route exact path="/Home" element= {<Home />} />
-        <Route exact path="/" element= {<Home />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Raz" element={<Raz />} />
-        <Route path="/Resume" element={<Resume />} />
-        <Route path="/Hobby" element={<Hobby />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="*" element={
-            <div>
-              <h2>Error 404: Not Found</h2>
-            </div>
-            } />
-      </Routes>
+      <div className='app'>
+        <Header/>
+        <Routes>
+        <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Raz" element={<Raz />} />
+          <Route path="/Resume" element={<Resume />} />
+          <Route path="/Hobby" element={<Hobby />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="*" element={
+              <div>
+                <h2>Error 404: Not Found</h2>
+              </div>
+              } />
+        </Routes>
+        <Footer />
+      </div>
     </BrowserRouter>
-    <Footer />
-    </div>
   );
 }
 

@@ -1,8 +1,6 @@
 import './About.css';
 import React from 'react';
-import Footer from '../Footer/Footer';
 import waterfall from '../../Photos/Waterfall.jpeg'
-import Header from '../Header/Header';
 class About extends React.Component {
     componentDidMount() {
         document.title = `About Section`;
@@ -11,7 +9,6 @@ class About extends React.Component {
         return(
         <div className="About">
           <title>About section</title>
-          <Header />
           <h1 className='title'>
             About Me
           </h1>
@@ -43,7 +40,6 @@ class About extends React.Component {
             </div>
           </div>
           </article>
-          <Footer />
         </div>
         );
 }

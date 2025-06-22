@@ -1,4 +1,7 @@
 .Resume {
+      min-height: 100vh;
+  width: 100vw;
+  background: transparent; /* or inherit if you want the gradient */
     text-align: center;
     overflow-y: auto;
     overflow-x: hidden;

@@ -9,7 +9,7 @@ import cooking from '../../Photos/cooking.png';
 const HobbyData =[
   {
   "Title": "Catching Em All!",
-  "Description": " During the peak of Covid, I decided to catch every pokemon as a gift for my little brother's 10th birthday. However, I decided the extra caveat would be that I would give him <b> ALL </b> of these pokemon in their alternate colors. The chance of finding one can range from 1/4096 to 1/8192. At the time of writing, we have managed to get 995/1,010 of all Pokemon. Missing only 2!(April 2025)!",
+  "Description": " During the peak of Covid, I decided to catch every pokemon as a gift for my little brother's 10th birthday. However, I decided the extra caveat would be that I would give him ALL of these pokemon in their alternate colors. The chance of finding one can range from 1/4096 to 1/8192. At the time of writing, we have managed to get 995/1,010 of all Pokemon. Missing only 2!(April 2025)!",
   "Image": Pokemon
 },
   {
