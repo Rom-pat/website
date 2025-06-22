@@ -4,3 +4,7 @@ firebase.json
 **/.*,
 .firebase/
 .firebaserc
+
+package-lock.json
+
+firebase*
