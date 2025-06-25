@@ -1,7 +1,5 @@
 import './Resume.css';
 import React from 'react';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 class Resume extends React.Component {
   DownloadClick = (version) => {
     let file = "stuff"
@@ -27,7 +25,6 @@ class Resume extends React.Component {
     render() {
         return(<div className="Resume">
           <div className='mb-7'>
-          <Header />
           <h1 className=' mt-5 title'> My Resume Page</h1>
           <h3 className=' mt-10 text-3xl text-white'> Where You can download my resume here...</h3>
           <div className='top_portion'>
@@ -41,7 +38,6 @@ class Resume extends React.Component {
           <button className='class' id='view'> <a href="/Romit's_Resume.pdf" target='_blank' rel='noreferrer'> View PDF</a> </button>
           </div>
           </div>
-          <Footer />
         </div>
         );
 }

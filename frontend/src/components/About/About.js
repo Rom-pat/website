@@ -1,8 +1,6 @@
 import './About.css';
 import React from 'react';
-import Footer from '../Footer/Footer';
 import waterfall from '../../Photos/Waterfall.jpeg'
-import Header from '../Header/Header';
 class About extends React.Component {
     componentDidMount() {
         document.title = `About Section`;
@@ -11,7 +9,6 @@ class About extends React.Component {
         return(
         <div className="About">
           <title>About section</title>
-          <Header />
           <h1 className='title'>
             About Me
           </h1>
@@ -21,7 +18,7 @@ class About extends React.Component {
           <div className='w-3/5 inline-block'>
             <p className='about-text'>
             The name is Romit! I am a recent University of Michigan graduate majoring in Computer Science.
-            I am also currently looking for work in the industry.
+            I will be working for GEICO as a Data Engineer for their team.
             </p>  
             <p className='about-text'> My big interest in computer science started when I initially played on my Gameboy. I would always research ways
             to hack my games and I soon started learning about machine code reading and inputting commands through game mechanics.
@@ -43,7 +40,6 @@ class About extends React.Component {
             </div>
           </div>
           </article>
-          <Footer />
         </div>
         );
 }
